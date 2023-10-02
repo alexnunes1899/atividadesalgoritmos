@@ -1,10 +1,10 @@
 Algoritmo "ATIVIDADE 06"
 // Disciplina   : Algoritmo
 // Professor   : Gilberto
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 28/09/2023
-//Faça um fluxograma e pseudocódigo para um programa que
+//FaÃ§a um fluxograma e pseudocÃ³digo para um programa que
 //receba a idade de 10 pessoas e mostre:
 //a.A quantidade de pessoas com menos de 18 anos.
 //b. A quantidade de pessoas com idade maior ou igual a 18 anos.
@@ -15,14 +15,14 @@ Var
 
 Inicio
    menores <- 0
-   para idade de 1 ate 3 faca
+   para idade de 1 ate 10 faca
       escreval ("Digite idade: ",idade)
       leia (i)
-      se (i < 18) então
+      se (i < 18) entÃ£o
          menores <- menores + 1
       fimse
       fimpara
-      escreval ("Esse é número de pessoas menores: ", menores)
+      escreval ("Esse Ã© nÃºmero de pessoas menores: ", menores)
 
 
 Fimalgoritmo
