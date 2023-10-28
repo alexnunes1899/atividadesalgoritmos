@@ -1,23 +1,23 @@
 Algoritmo "ATIVIDADE 03 VETORES "
 // Disciplina   : Algoritmo
 // Professor   : Gilberto
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 28/10/2023
 
-//Faça um programa que crie uma matriz de
-//distâncias entre 4 cidades. O usuário deve
-//entrar com a distância entre as cidades.
+//FaÃ§a um programa que crie uma matriz de
+//distÃ¢ncias entre 4 cidades. O usuÃ¡rio deve
+//entrar com a distÃ¢ncia entre as cidades.
 
-//O programa, após receber as entradas deve:
+//O programa, apÃ³s receber as entradas deve:
 
-//Imprimir a matriz completa de distâncias.
+//Imprimir a matriz completa de distÃ¢ncias.
 
-//Requerer para que o usuário informe o número de
-//duas cidades e, em seguida, informar a distância
+//Requerer para que o usuÃ¡rio informe o nÃºmero de
+//duas cidades e, em seguida, informar a distÃ¢ncia
 //entre elas.
 
-//Lembre-se: os índices devem respeitar o tamanho
+//Lembre-se: os Ã­ndices devem respeitar o tamanho
 //da matriz, se algum valor informado estiver fora
 //desse intervalo, o programa deve ser encerrado.
 Var
@@ -28,8 +28,9 @@ Inicio
    para linha de 0 ate 3 passo 1 faca
       para coluna de 0 ate 3 passo 1 faca
          se linha<>coluna entao
-            escreval("Digite a distância da cidade " ,linha,  " ate a cidade " ,coluna)
+            escreval("Digite a distÃ¢ncia da cidade " ,linha,  " ate a cidade " ,coluna)
             leia(m[linha,coluna])
+            m[coluna, linha] <- m[linha, coluna]
          senao
             m[linha,coluna]<-0
          fimse
@@ -38,7 +39,6 @@ Inicio
    fimpara
    para linha de 0 ate 3 passo 1 faca
       para coluna de 0 ate 3 passo 1 faca
-         escreva(m[linha,coluna])
       fimpara
       escreval
    fimpara
