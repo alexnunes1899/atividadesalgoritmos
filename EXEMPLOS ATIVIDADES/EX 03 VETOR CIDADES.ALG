@@ -1,13 +1,13 @@
 Algoritmo "matriz exercicio 3"
-//? Faça um programa que crie uma matriz de
-//distâncias entre 4 cidades. O usuário deve
-//entrar com a distância entre as cidades.
-//? O programa, após receber as entradas deve:
-//? Imprimir a matriz completa de distâncias.
-//? Requerer para que o usuário informe o número de
-//duas cidades e, em seguida, informar a distância
+//? FaÃ§a um programa que crie uma matriz de
+//distÃ¢ncias entre 4 cidades. O usuÃ¡rio deve
+//entrar com a distÃ¢ncia entre as cidades.
+//? O programa, apÃ³s receber as entradas deve:
+//? Imprimir a matriz completa de distÃ¢ncias.
+//? Requerer para que o usuÃ¡rio informe o nÃºmero de
+//duas cidades e, em seguida, informar a distÃ¢ncia
 //entre elas.
-//? Lembre-se: os índices devem respeitar o tamanho
+//? Lembre-se: os Ã­ndices devem respeitar o tamanho
 //da matriz, se algum valor informado estiver fora
 //desse intervalo, o programa deve ser encerrado.
 
@@ -27,7 +27,7 @@ Inicio
       para coluna de 0 ate 3 passo 1 faca
          se (m[linha,coluna]<1) entao
             se (linha<>coluna) entao
-               escreval("Digite a distância da cidade ",linha, " ate a cidade ",coluna )
+               escreval("Digite a distÃ¢ncia da cidade ",linha, " ate a cidade ",coluna )
                leia(m[linha,coluna])
                m[coluna,linha]<-m[linha,coluna]
             senao
@@ -62,7 +62,7 @@ leia(coluna)
 se (coluna<0) ou (coluna>3) entao
 fimalgoritmo
 fimse
-escreval(" a distancia entre as cidades ",linha," e ",coluna," é ",m[linha,coluna])
+escreval(" a distancia entre as cidades ",linha," e ",coluna," Ã© ",m[linha,coluna])
 
 
 Fimalgoritmo
