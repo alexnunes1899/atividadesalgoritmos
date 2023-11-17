@@ -1,75 +1,76 @@
-Algoritmo "ATIVIDADE 03 FUNÇÃO"
+Algoritmo "ATIVIDADE 03 FUNÃ‡ÃƒO"
 // Disciplina   : Algoritmo
 // Professor   : Gilberto
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 16/11/2023
-//3. Faça um programa que contenha as seguintes funções:
-//a. menuPrincipal (com as opções de realizar cálculos de adição
-//subtração divisão e multiplicação).
-//b. Uma função para cada operação descrita na letra a.
-//c. Função principal: na função principal, garante que o menu é chamado até que o
-//usuário digite o valor de saída (determinado por você).
+//3. FaÃ§a um programa que contenha as seguintes funÃ§Ãµes:
+//a. menuPrincipal (com as opÃ§Ãµes de realizar cÃ¡lculos de adiÃ§Ã£o
+//subtraÃ§Ã£o divisÃ£o e multiplicaÃ§Ã£o).
+//b. Uma funÃ§Ã£o para cada operaÃ§Ã£o descrita na letra a.
+//c. FunÃ§Ã£o principal: na funÃ§Ã£o principal, garante que o menu Ã© chamado atÃ© que o
+//usuÃ¡rio digite o valor de saÃ­da (determinado por vocÃª).
 
 procedimento menuPrincipal(opcao:caractere)
 var
    x,y,z,w,resultado:real
 inicio
-   escreval("Digite x para multiplicação: ")
-   escreval ("Digite y para subtração: ")
-   escreval("Digite z para divisão")
-   escreval("Digite w para adição: ")
+   escreval("Digite x para multiplicaÃ§Ã£o: ")
+   escreval ("Digite y para subtraÃ§Ã£o: ")
+   escreval("Digite z para divisÃ£o")
+   escreval("Digite w para adiÃ§Ã£o: ")
    escreval
-   escreva("Digite a opção desejada: ")
+   escreva("Digite a opÃ§Ã£o desejada: ")
    leia (opcao)
 
-   //MULTIPLICAÇÃO
+   //MULTIPLICAÃ‡ÃƒO
 
    se (opcao = "x")entao
-      escreval("Digite primeiro número: ")
+      escreval("Digite primeiro nÃºmero: ")
       leia (x)
-      escreval("Digite segundo número: ")
+      escreval("Digite segundo nÃºmero: ")
       leia (y)
       resultado <- multiplicacao(x,y)
-      escreval ("Esse é o resultado do seu cálculo: ", resultado)
+      escreval ("Esse Ã© o resultado do seu cÃ¡lculo: ", resultado)
    fimse
 
-   //SUBTRAÇÃO
+   //SUBTRAÃ‡ÃƒO
 
    se (opcao = "y")entao
-      escreval("Digite primeiro número: ")
+      escreval("Digite primeiro nÃºmero: ")
       leia (x)
-      escreval("Digite segundo número: ")
+      escreval("Digite segundo nÃºmero: ")
       leia (y)
       resultado <- subtracao(x,y)
-      escreval ("Esse é o resultado do seu cálculo: ", resultado)
+      escreval ("Esse Ã© o resultado do seu cÃ¡lculo: ", resultado)
    fimse
 
-   //DIVISÃO
+   //DIVISÃƒO
 
    se (opcao = "z") entao
-      escreval("Digite o número que você quer fazer a divisão: ")
+      escreval("Digite o nÃºmero que vocÃª quer fazer a divisÃ£o: ")
       leia (x)
       escreval("Digite o divisor: ")
       leia (y)
       resultado <- divisao (x,y)
+      escreval ("Esse Ã© o resultado do seu cÃ¡lculo: ",resultado)
    fimse
 
-   // ADIÇÃO
+   // ADIÃ‡ÃƒO
 
    se (opcao = "w")entao
-      escreval("Digite primeiro número: ")
+      escreval("Digite primeiro nÃºmero: ")
       leia (x)
-      escreval("Digite segundo número: ")
+      escreval("Digite segundo nÃºmero: ")
       leia (y)
       resultado <- adicao (x,y)
-      escreval("Esse é o resultado do seu cálculo: ",resultado)
+      escreval("Esse Ã© o resultado do seu cÃ¡lculo: ",resultado)
    fimse
 fimprocedimento
 
-//FUNÇÕES
+//FUNÃ‡Ã•ES
 
-//MULTIPLICAÇÕES
+//MULTIPLICAÃ‡Ã•ES
 
 funcao multiplicacao(a,b:real):real
 var
@@ -81,7 +82,7 @@ inicio
 
 fimfuncao
 
-// SUBTRAÇÕES
+// SUBTRAÃ‡Ã•ES
 
 funcao subtracao (a,b:real):real
 var
@@ -91,7 +92,7 @@ inicio
    retorne soma
 fimfuncao
 
-// DIVISÕES
+// DIVISÃ•ES
 
 funcao divisao (a,b:real):real
 var
@@ -101,7 +102,7 @@ inicio
    retorne soma
 fimfuncao
 
-//ADIÇÕES
+//ADIÃ‡Ã•ES
 
 funcao adicao (a,b:real):real
 var
