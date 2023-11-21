@@ -19,10 +19,9 @@ inicio
    retorne resultado
 fimfuncao
 Var
-   x,y,z:inteiro
    resultado: inteiro
 Inicio
-   resultado <- valor(x,y,z)
+   resultado <- valor(0,0,0)
    escreval("Esse é o maior valor: ",resultado)
 
 Fimalgoritmo
