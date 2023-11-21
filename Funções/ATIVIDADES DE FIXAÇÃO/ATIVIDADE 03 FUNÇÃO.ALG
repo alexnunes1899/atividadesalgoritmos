@@ -24,6 +24,24 @@ inicio
    escreva("Digite a opção desejada: ")
    leia (opcao)
 
+   //ADVERTIR USUÁRIO PARA DIGITAR UM VALOR CORRETO.
+
+   enquanto (opcao<>"x") ou (opcao<>"y") ou (opcao<>"z")ou (opcao<>"w") faca
+      escreval ("Digite uma opção válida.")
+      escreval
+      escreval("Digite x para multiplicação: ")
+      escreval ("Digite y para subtração: ")
+      escreval("Digite z para divisão")
+      escreval("Digite w para adição: ")
+      escreval("Digite 0 para encerrar.")
+      escreval
+      escreva("Digite a opção desejada: ")
+      leia (opcao)
+         se (opcao=0)entao
+   fimalgoritmo
+   fimse
+   fimenquanto
+
    //MULTIPLICAÇÃO
 
    se (opcao = "x")entao
@@ -67,9 +85,7 @@ inicio
       resultado <- adicao (x,y)
       escreval("Esse é o resultado do seu cálculo: ",resultado)
    fimse
-   se (opcao=0)entao
-   fimalgoritmo
-   fimse
+
 fimprocedimento
 
 //FUNÇÕES
