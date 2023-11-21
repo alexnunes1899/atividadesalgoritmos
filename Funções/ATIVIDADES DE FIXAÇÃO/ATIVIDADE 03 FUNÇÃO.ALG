@@ -19,6 +19,7 @@ inicio
    escreval ("Digite y para subtração: ")
    escreval("Digite z para divisão")
    escreval("Digite w para adição: ")
+   escreval("Digite 0 para encerrar.")
    escreval
    escreva("Digite a opção desejada: ")
    leia (opcao)
@@ -65,6 +66,9 @@ inicio
       leia (y)
       resultado <- adicao (x,y)
       escreval("Esse é o resultado do seu cálculo: ",resultado)
+   fimse
+   se (opcao=0)entao
+   fimalgoritmo
    fimse
 fimprocedimento
 
