@@ -1,9 +1,9 @@
-Algoritmo "ATIVIDADE FUNÇÃO 2"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
+Algoritmo "ATIVIDADE DE FUNÇÃO 02"
+// Disciplina   : Algoritmo
+// Professor   : Gilberto 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 14/11/2023
+// Autor(a)    : Alex Nunes
+// Data atual  : 21/11/2023
 //Crie uma função que receba três valores e retorne o maior valor.
 funcao valor (a,b,c:inteiro):inteiro
 var
