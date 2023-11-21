@@ -12,8 +12,8 @@ inicio
    para numero de 1 ate 3 passo 1 faca
       escreval("Digite um número",numero)
       leia (numero)
-      resultado <- numero
       se (numero > resultado)entao
+      resultado <- numero
       fimse
    fimpara
    retorne resultado
