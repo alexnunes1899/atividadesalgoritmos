@@ -18,14 +18,18 @@ var
    a,b,c,d,f,resultado:real
    x,y:real
 inicio
-
+   repita
+   escreval ("Faça seus cáculos aqui.")
+   escreval
    escreval ("Digite a para adição.")
    escreval ("Digite b para subtração.")
    escreval ("Digite c para divisão.")
    escreval ("Digite d para multiplicação.")
    escreval ("Digite f para sair.")
    leia (opcao)
-
+   se (opcao <>"a") ou (opcao<>"b") ou (opcao<>"c") ou (opcao<>"d") ou (opcao<>"f")entao
+   escreval ("Digite uma opção válida.")
+   fimse
    // ADIÇÃO
 
    se (opcao="a")entao
@@ -68,10 +72,10 @@ inicio
       resultado <- multiplicacao (x,y)
       escreval ("Esse é o resultado: ",resultado)
    fimse
-   se (opcao = "f")entao
-   fimalgoritmo
-   fimse
+   escreval
+   ate (opcao="f")
 fimprocedimento
+
 
 //FUNÇÕES
 
