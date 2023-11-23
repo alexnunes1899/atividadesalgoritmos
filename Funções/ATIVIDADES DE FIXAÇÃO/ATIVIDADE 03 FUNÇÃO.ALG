@@ -1,8 +1,8 @@
 Algoritmo "ex-03"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
+// Disciplina   : [Algoritmo]
+// Professor   : Gilberto
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : Alex Nunes Silva
 // Data atual  : 23/11/2023
 //3. Faça um programa que contenha as seguintes funções:
 //a. menuPrincipal (com as opções de realizar cálculos
@@ -27,7 +27,7 @@ inicio
    escreval ("Digite d para multiplicação.")
    escreval ("Digite f para sair.")
    leia (opcao)
-   se (opcao <>"a") ou (opcao<>"b") ou (opcao<>"c") ou (opcao<>"d") ou (opcao<>"f")entao
+   se (opcao <>"a") e (opcao<>"b") e (opcao<>"c") e (opcao<>"d") e (opcao<>"f")entao
    escreval ("Digite uma opção válida.")
    fimse
    // ADIÇÃO
